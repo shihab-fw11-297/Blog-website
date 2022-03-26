@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+  }
+
+  .details {
+    display: flex;
+    width: 1000px;
+    margin: 0px 25px 40px 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .postDesc {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+
+  .hedding{
+    width: 30%;
+    color: #444444;
+    margin: auto;
+    font-size: 24px;
+    margin-top: 15px;
+  }
